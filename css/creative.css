@@ -81,8 +81,8 @@ body {
   -webkit-tap-highlight-color: #222222; }
 
 #mainNav {
-  border-color: rgba(34, 34, 34, 0.05);
-  background-color: white;
+  border-color: rgba(34, 34, 34, 0.048);
+  background-color: rgba(255, 255, 255, 0.863);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -115,7 +115,7 @@ body {
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         background-color: transparent; }
-  @media (min-width: 992px) {
+ /* @media (min-width: 992px) {
     #mainNav {
       border-color: rgba(255, 255, 255, 0.3);
       background-color: transparent; }
@@ -142,7 +142,7 @@ body {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #F05F40; } }
+            color: #F05F40; } } */
 
 header.masthead {
   position: relative;
