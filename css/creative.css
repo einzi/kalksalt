@@ -248,7 +248,13 @@ header.masthead {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-      font-size: 22px; } }
+      font-size: 30px;
+      margin-bottom: 10px; } }
+.product-price {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
 
 .call-to-action {
   padding: 50px 0; }
