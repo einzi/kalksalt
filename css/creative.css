@@ -211,7 +211,7 @@ header.masthead {
   display: block;
   max-width: 650px;
   margin: 0 auto; }
-  .portfolio-box .portfolio-box-caption {
+.portfolio-box .portfolio-box-caption {
     position: absolute;
     bottom: 0;
     display: block;
@@ -224,7 +224,15 @@ header.masthead {
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+@media(max-width:768px) {
+  .portfolio-box .portfolio-box-caption {
+    opacity: 1;
+    height: 30%;
+    padding-top: 15px;
+  }
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
       position: absolute;
       top: 50%;
       width: 100%;
